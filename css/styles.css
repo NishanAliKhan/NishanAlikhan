@@ -135,7 +135,7 @@ font-family: 'Montserrat Black', arial;  }
 
 
 
-@media (max-width:1028px) {
+@media (max-width:900px) {
 
   .download-button {
   margin: 15% auto;
@@ -171,7 +171,9 @@ text-align: center;
 
 }
 p {
-font-size: 1rem;}
+font-size: 1rem;
+text-align: center;
+line-height: 1;}
 
 #cta {
   font-size: 1rem;
