@@ -136,6 +136,10 @@ font-family: 'Montserrat Black', arial;  }
 
 
 @media (max-width:900px) {
+ 
+ .navbar-toggler {
+    text-align: right;
+  }
 
   .download-button {
   margin: 15% auto;
