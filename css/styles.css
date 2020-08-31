@@ -135,7 +135,7 @@ font-family: 'Montserrat Black', arial;  }
 
 
 
-@media(min-width:768px) {
+@media(max-width:768px) {
    .navbar-collapse {
     width: auto;}
  
