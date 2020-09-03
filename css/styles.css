@@ -1,122 +1,85 @@
-#title
-{background-color:#07689f;
-color:#fff;
- }
+#title {
+  background-color: #393b44;
+
+  color:#fff;
+}
+
+/* navbar Code */
+
+.navbar {
+  padding: 0 0 4.5rem;}
+
+  .navbar-brand {
+    font-size: 3rem;
+  }
+
+  .nav-item {
+  padding: 8px 0;
+}
+
 h1 {font-family: 'Tangerine', serif;
-  font-size: 4rem;
+  font-size: 2.5rem;
   line-height: 1.5;
   text-shadow: 4px 4px 4px #aaa;}
+
+  .download-button {
+  margin: 10% 3% 5% 0;}
+
   .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
     font-weight: bold;
-  }
-  h2 {
-    font-family:  'Montserrat Black', arial;
-    font-weight: bold;
-    font-size: 2.5rem;
-line-height: 4.5rem;     }
-
-
-h3 {
-  font-family: 'Montserrat Black', arial;
-  font-weight: bold;
 }
 
-p {
-  color:#8f8f8f;
-}
-
-  body {
-font-family: 'Montserrat Black', arial;  }
-
-/* navigation bar */
-
- .navbar {
-  padding-bottom: 4.5rem;
-
-}
-.navbar-brand { font-size: 2.5rem;
-               color:black;
-               font-weight: bold;
-             }
-.nav-item {
-  padding:0 20px;
-  margin :auto 0 0;
-}
-
-/* Download Buttons */
-.download-button {
-  margin: 10% 3% 5% 0;
-
-}
-
-/* Title. image */
-.title-image {width:80%;
-
+.title-image {
+  width:100%;
  position: absolute;
- right: 5%;
+ left: 5%;
 
 }
 
-
-
-
-
-
-#features {
-  padding: 7% 15%;
-
-  background-color: white;
+.genre-intro {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  line-height: 1.5;
+  padding-bottom: 55px;
 }
-.feature-box {
-  text-align:center;
-  padding: 4%;
 
-}
-.icon {color:#f8bd7f;
-  margin-bottom:1rem;}
+#genre{
+  padding: 7% 15% ;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  }
+
+  .genre-box {
+    padding: 4%;
+    text-align: center;
+  }
+
+  .icon {
+    color:#8d93ab;
+  margin-bottom:1rem;
+  }
   .icon:hover{
-    color: #07689f;
-  }
-
-  #testimonials {
-
-  text-align: center;
-  background-color:#07689f;
-  color: #fff;}
-
-  .carousel-item{
-      padding: 7% 15%;
-  }
-
-  #press {
-  background-color:#07689f;
-  text-align: center;
-  padding-bottom: 5%;
+  color: #393b44;
 }
-.press-logo {
-  width:15%;
-  margin: 20px 20px 50px;
+#merch {
+text-align: center;
+padding:100px
 }
 
-.testimonial-image {
-  width:10%;
-  border-radius: 100%;
-  margin: 20px;
+.info-col {
+  padding: 5% 3%;
 }
 
-#pricing {
-  text-align: center;
-  padding: 100px;
-}
 
-.pricing-column {
-  padding: 2% 3%;
-}
+
 #cta {
-  background-color: #07689f;
+  background-color: #8d93ab;
   color: #fff;
   padding: 7% 15%;
+
   text-align: center;
 }
 
@@ -129,58 +92,73 @@ font-family: 'Montserrat Black', arial;  }
   text-align: center;
   padding: 7% 15%;
 }
+
 .social-icon {
   margin: 20px 10px;
 }
 
 
 
-@media (max-width:1028px) {
 
-  .download-button {
-  margin: 15% auto;
-  padding: 10px auto;
-  font-size: 1rem;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .title-image {
+    position:static;}
+
+  .nav-text{
+      font-size: 30px;
+    }
+
+
+#merch {
+  padding-top: 8px;
 }
 
-h1 {
-font-size: 2rem;
-text-align: center;
-}
+    h1 {
+      font-size: 20px;
 
-h2 {
-font-size: 1rem;
-text-align: center;
-}
+    }
+    .btn {
+      font-size: 15px;
 
-h3 {
-font-size: 1rem;
-text-align: center;
-}
+    }
+    .genre-intro{
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    h4{
+      font-size: 20px;
+    }
+
+    p{
+    font-size:  15px;
+    }
+
+    .cta-heading {
+      font-size: 20px;
+    }
 
 
-#title {
-text-align: center;
-
-}
-
-.title-image {
-  position:static;
 
 
-}
-p {
-font-size: 1rem;
-text-align: center;
-line-height: 1;}
 
-#cta {
-  font-size: 1rem;
-  text-align: center;
-}
-.cta-heading {
-  font-size: 1rem;
-  text-align: center;
-}
+
+
 }
