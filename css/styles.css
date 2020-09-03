@@ -119,8 +119,9 @@ padding:100px
 @media only screen and (max-width: 480px) {
   .title-image {
     position:static;}
+  
   #merch {
-  padding:8%
+  padding-left:20px;
 
 }
 
